@@ -1,0 +1,11 @@
+item.steel.name=Steel Ingot
+item.sword.name=Apulian Sword
+item.pickaxe.name=Apulian Pickaxe
+item.axe.name=Apulian Axe
+item.spade.name=Apulian Showel
+item.hoe.name=Apulian Hoe
+
+tile.rural_brick.name=Rural Bricks
+tile.city_brick.name=Ostuni Bricks
+tile.crafting_table.name=Apulian Crafting Table
+tile.cheesecake.name=Cheese Cake
