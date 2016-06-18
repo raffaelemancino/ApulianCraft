@@ -8,11 +8,13 @@ package com.raffaele.apuliancraft.proxy;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPostInitializationEvent;
+
 /**
  *
  * @author Raffaele Francesco Mancino
  */
 public class ClientProxy extends CommonProxy {
+    
     @Override
     public void preInit(FMLPreInitializationEvent event)
     {

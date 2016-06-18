@@ -11,12 +11,14 @@ import cpw.mods.fml.common.event.FMLPreInitializationEvent;
 //apuliancraft lib
 import com.raffaele.apuliancraft.proxy.CommonProxy;
 import com.raffaele.apuliancraft.proxy.ClientProxy;
-//items
-import com.raffaele.apuliancraft.items.ModItems;
-//blocks
-import com.raffaele.apuliancraft.blocks.ModBlocks;
+//item
+import com.raffaele.apuliancraft.items.ModItem;
+//block
+import com.raffaele.apuliancraft.blocks.ModBlock;
 //food
 import com.raffaele.apuliancraft.food.ModFood;
+//armor
+import com.raffaele.apuliancraft.armor.ModArmor;
 
 @Mod(modid = BasicInfo.ID, name = BasicInfo.NAME , version = BasicInfo.VERSION)
 public class ApulianCraft
@@ -27,9 +29,10 @@ public class ApulianCraft
     @EventHandler
     public void preInit(FMLPreInitializationEvent event)
     {
-        ModItems.init();
-        ModBlocks.init();
-        ModFood.init();
+        ModItem.preInit();
+        ModBlock.preInit();
+        ModFood.preInit();
+        ModArmor.preInit();
     }
     
     @EventHandler
