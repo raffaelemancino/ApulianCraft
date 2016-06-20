@@ -1,18 +1,19 @@
+#tools
 item.steel.name=Steel Ingot
 item.sword.name=Apulian Sword
 item.pickaxe.name=Apulian Pickaxe
 item.axe.name=Apulian Axe
 item.spade.name=Apulian Showel
 item.hoe.name=Apulian Hoe
-
+#armors
 item.helmet_hoplite.name=Hoplite Kranos
 item.chestplate_hoplite.name=Hoplite Thorax
 item.leggings_hoplite.name=Hoplite Pteryges
 item.boots_hoplite.name=Hoplite Epipodion
-
+#blocks
 tile.brick_rural.name=Rural Bricks
 tile.brick_rural_carved.name=Rural Bricks Carved
 tile.brick_city.name=Ostuni Bricks
 tile.crafting_table.name=Apulian Crafting Table
-tile.cheesecake.name=Cheese Cake
-
+#foods
+item.cheesecake.name=Cheese Cake
